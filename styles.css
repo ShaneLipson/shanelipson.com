@@ -307,17 +307,8 @@ body {
     text-align: center;
 }
 
-.contact-with-logo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-.contact-info {
-    margin: 0;
-    text-align: right;
+.contact-section .contact-info {
+    text-align: center;
 }
 
 .contact-info p {
@@ -330,6 +321,18 @@ body {
     color: #005A9C;
 }
 
+.contact-with-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.contact-with-logo .contact-info {
+    text-align: center;
+}
+
 .logo-image {
     display: flex;
     justify-content: center;
@@ -337,7 +340,7 @@ body {
 }
 
 .logo-image img {
-    max-width: 180px;
+    max-width: 360px;
     height: auto;
     display: block;
 }
